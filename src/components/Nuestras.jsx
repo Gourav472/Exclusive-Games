@@ -130,7 +130,7 @@ function Nuestras() {
       
 
         </div>
-        <div className='max-w-[1140px] z-50 pt-[46px] pb-[41px] rounded-[16px] bg-5 border-[0.5px] mt-[64px] relative'>
+        <div className='max-w-[1140px] z-50 pt-[46px] bg-[#062023]  pb-[41px] rounded-[16px] bg-5 border-[0.5px] mt-[64px] relative'>
           <div className='flex flex-col items-center '>
             <h2 className='font-[400] font-Anton text-[32px] leading-[41px] text-[white]'>Luxury</h2>
             <p className='max-w-[391px] font-[500] font-Inter text-[16px] leading-[25px] text-[#CDD5D6] text-center pt-4'>lleva tu experiencia de juego al siguiente nivel. Con todas las características de la versión Silver y la potencia adicional de la tecnología React .</p>
@@ -185,8 +185,8 @@ function Nuestras() {
         </div>
         <div className='max-w-[1140px] z-50  rounded-[16px] border-[0.5px] bg-[#062023] pl-[50px] pr-[40px] py-[78px] mt-[64px] relative'>
           <div className='flex lg:flex-row  flex-col-reverse flex-wrap mx-[-12px]'>
-            <div className=' w-full  flex justify-center lg:w-[41.66%] px-[12px] mt-[43px]'>
-              <div className='flex flex-col items-center'>
+            <div className=' w-full  flex  max-lg:justify-center lg:w-[41.66%] px-[12px] mt-[43px]'>
+              <div className='flex flex-col max-lg:items-center'>
                 <h2 className=' font-[400] font-Anton text-[32px] leading-[41px] text-white '>Platinum</h2>
                 <p className='max-w-[364px] max-lg:text-center pt-4 font-[500] font-Inter text-[16px] leading-[25px] text-[#CED4D4] max-md:text-[18px]'>Diseño totalmente personalizado. Contáctanos para un presupuesto.</p>
                 <h2 className=' font-[400] font-Anton text-[48px] leading-[57px] text-white pt-8 max-md:text-[32px] max-sm:text-[30px] max-md:leading-[45px] '>Consultar precio</h2>
