@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from 'react'
+import Header from './components/Header'
+import Poker from './components/Poker'
+import Slots from './components/Slots'
+import Jackpot from './components/Jackpot'
+import White from './components/Eegirnos'
+import Black from './components/Nuestras'
+import Acordian from './components/Acordian'
+import Lanza from './components/Lanza'
+import Footer from './components/Footer'
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Header />
+      <Poker />
+      <Slots />
+      <Jackpot />
+      <White />
+      <Black />
+      <Acordian />
+      <Lanza/>
+      <Footer />
+    </>
+  )
 }
 
-export default App;
+export default App
