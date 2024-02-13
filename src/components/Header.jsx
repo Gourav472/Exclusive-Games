@@ -48,7 +48,7 @@ function Header() {
 
               </ul>
               <div className='relative '>
-                <button class=" bg-transparent border text-white hover:text-black hover:bg-gradient-to-l  overflow-hidden relative px-[46px] py-[13px] rounded-[41px] text-[16px] font-Inter font-[700] hover:from-[#7AF57A] hover:to-[#51C8EF] outline-none duration-500 ease-linear group">
+                <button class=" bg-transparent z-50 border text-white hover:text-black hover:bg-gradient-to-l  overflow-hidden relative px-[46px] py-[13px] rounded-[41px] text-[16px] font-Inter font-[700] hover:from-[#7AF57A] hover:to-[#51C8EF] outline-none duration-500 ease-linear group">
                   <span class="bg-white shadow-white absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-[41px] opacity-50 group-hover:top-[150%] duration-700 ease-linear shadow-[0_0_10px_10px_#FFF]"></span>
                   Acceso
                 </button>
@@ -70,11 +70,11 @@ function Header() {
           <h1 className='max-w-[505px] font-[400] text-[72px] text-white font-Anton leading-[86px] text-center max-sm:text-[42px] max-md:text-[52px] max-md:leading-[60px] '>Exclusive Games. Pasión por ganar</h1>
           <p className='max-w-[727px] font-[500] text-[16px] leading-[25px] text-center font-Inter text-[#CCCFD1] pt-[16px] max-md:text-[18px]'>En Exclusive Games somos un equipo apasionado de personas dedicados al desarrollo de multiplataformas para juegos de azar. A lo largo de nuestra vida consumimos todo tipo de juegos hasta que un día decidimos crear los propios.</p>
           <div className='pt-10 relative'>
-            <button class=" bg-gradient-to-l hover:text-white from-[#51C8EF] to-[#7AF57A] text-black  overflow-hidden relative px-[46px] py-[13px] rounded-[41px] text-[16px] font-Inter font-[700] hover:from-[#7AF57A] hover:to-[#51C8EF] outline-none duration-500 ease-linear group">
+            <button class=" bg-gradient-to-l z-50 hover:text-white from-[#51C8EF] to-[#7AF57A] text-black  overflow-hidden relative px-[46px] py-[13px] rounded-[41px] text-[16px] font-Inter font-[700] hover:from-[#7AF57A] hover:to-[#51C8EF] outline-none duration-500 ease-linear group">
               <span class="bg-white shadow-white absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-[41px] opacity-50 group-hover:top-[150%] duration-700 ease-linear shadow-[0_0_10px_10px_#FFF]"></span>
               Empezar
             </button>
-            <div className='absolute bottom-[-4px] left-[-4px]'>
+            <div className=' absolute bottom-[-4px] left-[-4px]'>
               <Btn1 />
 
             </div>

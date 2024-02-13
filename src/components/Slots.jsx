@@ -62,22 +62,20 @@ function Slots() {
                             <div className='relative group overflow-hidden '>
                                 <img className='cursor-pointer w-full' src={slotimg1} alt="img" />
                                 <div className='w-full  rounded-[8px] h-full bg-black/80 flex justify-center items-center absolute left-[-100%]  group-hover:left-[0%] top-[0%] duration-500 ease-linear cursor-pointer'>
-                                    <div className='relative'>
-                                        <button className=' text-[16px] font-[700] font-Inter pl-[46px] max-sm:px-[35px] pt-[13px] pr-[46px] pb-[13px] text-white rounded-[41px] border  bg-transparent hover:bg-gradient-to-l  hover:from-[#7AF57A] hover:to-[#51C8EF] duration-300 ease-linear hover:text-black  '>Jugar</button>
-                                        <div className='absolute bottom-[-4px] left-[-4px]'>
-                                          <Btn2/>
-
-
+                                    <div className='relative z-40' >
+                                        <button className='text-[16px] font-[700] font-Inter pl-[46px] max-sm:px-[35px] pt-[13px] pr-[46px] pb-[13px] text-white rounded-[41px] border  bg-transparent hover:bg-gradient-to-l  hover:from-[#7AF57A] hover:to-[#51C8EF] duration-300 ease-linear hover:text-black  '>Jugar</button>
+                                        <div className='absolute  bottom-[-4px] left-[-4px]  -z-10'> 
+                                          <Btn2/> 
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className='relative group overflow-hidden mt '>
+                            <div className='relative z-50 group overflow-hidden mt '>
                                 <img className='cursor-pointer overflow-hidden w-full' src={slotimg2} alt="img" />
                                 <div className='w-full  rounded-[8px] h-full bg-black/80 flex justify-center items-center absolute left-[-100%]  group-hover:left-[0%] top-0 duration-500 ease-out cursor-pointer'>
-                                    <div className='relative'>
-                                        <button className=' text-[16px] font-[700] max-sm:px-[35px] font-Inter pl-[46px] pt-[13px] pr-[46px] pb-[13px] text-white rounded-[41px] border  bg-transparent hover:bg-gradient-to-l  hover:from-[#7AF57A] hover:to-[#51C8EF] duration-300 ease-linear hover:text-black  '>Jugar</button>
-                                        <div className='absolute bottom-[-4px] left-[-4px]'>
+                                    <div className='relative z-40'>
+                                        <button className='  text-[16px] font-[700] max-sm:px-[35px] font-Inter pl-[46px] pt-[13px] pr-[46px] pb-[13px] text-white rounded-[41px] border  bg-transparent hover:bg-gradient-to-l  hover:from-[#7AF57A] hover:to-[#51C8EF] duration-300 ease-linear hover:text-black  '>Jugar</button>
+                                        <div className='absolute bottom-[-4px] left-[-4px] -z-10'>
                                           <Btn2/>
 
 
@@ -92,9 +90,9 @@ function Slots() {
                             <div className='relative group overflow-hidden '>
                                 <img className='cursor-pointer w-full' src={slotimg3} alt="img" />
                                 <div className='w-full  rounded-[8px] h-full bg-black/80 flex justify-center items-center absolute left-[-100%]  group-hover:left-[0%] top-0 duration-500 ease-out cursor-pointer'>
-                                    <div className='relative'>
-                                        <button className=' text-[16px] max-sm:px-[35px] font-[700] font-Inter pl-[46px] pt-[13px] pr-[46px] pb-[13px] text-white rounded-[41px] border  bg-transparent hover:bg-gradient-to-l  hover:from-[#7AF57A] hover:to-[#51C8EF] duration-300 ease-linear hover:text-black  '>Jugar</button>
-                                        <div className='absolute bottom-[-4px] left-[-4px]'>
+                                    <div className='relative z-40'>
+                                        <button className='  text-[16px] max-sm:px-[35px] font-[700] font-Inter pl-[46px] pt-[13px] pr-[46px] pb-[13px] text-white rounded-[41px] border  bg-transparent hover:bg-gradient-to-l  hover:from-[#7AF57A] hover:to-[#51C8EF] duration-300 ease-linear hover:text-black  '>Jugar</button>
+                                        <div className='absolute bottom-[-4px] left-[-4px] -z-10'>
                                        <Btn2/>
 
                                         </div>
@@ -103,10 +101,10 @@ function Slots() {
                             </div>
                             <div className='relative group overflow-hidden '>
                                 <img className='cursor-pointer w-full' src={slotimg4} alt="img" />
-                                <div className='w-full  rounded-[8px] h-full bg-black/80 flex justify-center items-center absolute left-[-100%]  group-hover:left-[0%] top-0 duration-500 ease-out cursor-pointer'>
-                                    <div className='relative'>
+                                <div className='w-full z-50  rounded-[8px] h-full bg-black/80 flex justify-center items-center absolute left-[-100%]  group-hover:left-[0%] top-0 duration-500 ease-out cursor-pointer'>
+                                    <div className='relative z-40'>
                                         <button className=' text-[16px] max-sm:px-[35px] font-[700] font-Inter pl-[46px] pt-[13px] pr-[46px] pb-[13px] text-white rounded-[41px] border  bg-transparent hover:bg-gradient-to-l  hover:from-[#7AF57A] hover:to-[#51C8EF] duration-300 ease-linear hover:text-black  '>Jugar</button>
-                                        <div className='absolute bottom-[-4px] left-[-4px]'>
+                                        <div className='absolute bottom-[-4px] left-[-4px] -z-10'>
                                           <Btn2/>
 
                                         </div>
@@ -120,9 +118,9 @@ function Slots() {
                             <div className='relative group overflow-hidden '>
                                 <img className='cursor-pointer w-full' src={slotimg5} alt="img" />
                                 <div className='w-full rounded-[8px] h-full bg-black/80 flex justify-center items-center absolute left-[-100%]  group-hover:left-[0%] top-0 duration-500 ease-out cursor-pointer'>
-                                    <div className='relative'>
-                                        <button className=' text-[16px] font-[700] font-Inter pl-[46px] pt-[13px] pr-[46px] pb-[13px] text-white rounded-[41px] border  bg-transparent hover:bg-gradient-to-l  hover:from-[#7AF57A] hover:to-[#51C8EF] duration-300 ease-linear hover:text-black  '>Jugar</button>
-                                        <div className='absolute bottom-[-4px] left-[-4px]'>
+                                    <div className='relative z-40'>
+                                        <button className='  text-[16px] font-[700] font-Inter pl-[46px] pt-[13px] pr-[46px] pb-[13px] text-white rounded-[41px] border  bg-transparent hover:bg-gradient-to-l  hover:from-[#7AF57A] hover:to-[#51C8EF] duration-300 ease-linear hover:text-black  '>Jugar</button>
+                                        <div className='absolute bottom-[-4px] left-[-4px] -z-10'>
                                          <Btn2/>
                                         </div>
                                     </div>
@@ -131,9 +129,9 @@ function Slots() {
                             <div className='relative group overflow-hidden '>
                                 <img className='cursor-pointer w-full' src={slotimg6} alt="img" />
                                 <div className='w-full  rounded-[8px] h-full bg-black/80 flex justify-center items-center absolute left-[-100%]  group-hover:left-[0%] top-0 duration-500 ease-out cursor-pointer'>
-                                    <div className='relative'>
-                                        <button className=' text-[16px] max-sm:px-[35px] font-[700] font-Inter pl-[46px] pt-[13px] pr-[46px] pb-[13px] text-white rounded-[41px] border  bg-transparent hover:bg-gradient-to-l  hover:from-[#7AF57A] hover:to-[#51C8EF] duration-300 ease-linear hover:text-black  '>Jugar</button>
-                                        <div className='absolute bottom-[-4px] left-[-4px]'>
+                                    <div className='relative z-40'>
+                                        <button className='  text-[16px] max-sm:px-[35px] font-[700] font-Inter pl-[46px] pt-[13px] pr-[46px] pb-[13px] text-white rounded-[41px] border  bg-transparent hover:bg-gradient-to-l  hover:from-[#7AF57A] hover:to-[#51C8EF] duration-300 ease-linear hover:text-black  '>Jugar</button>
+                                        <div className='absolute bottom-[-4px] left-[-4px] -z-10'>
                                           <Btn2/>
                                         </div>
                                     </div>
@@ -143,12 +141,12 @@ function Slots() {
                     </div>
                 </div>
                 <div className='flex justify-center pb-10 sm:pb-14 lg:pb-[243px] '>
-                    <div className='relative'>
+                    <div className='relative z-40'>
                         <button class=" bg-gradient-to-l from-[#51C8EF] to-[#7AF57A] text-black  overflow-hidden relative px-[46px] py-[13px] rounded-[41px] text-[16px] font-Inter font-[700] hover:from-[#7AF57A] hover:to-[#51C8EF] outline-none duration-500 ease-linear group">
                             <span class="bg-black shadow-black absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-[41px] opacity-50 group-hover:top-[150%] duration-700 ease-linear shadow-[0_0_10px_10px_#FFF]"></span>
                             Mostrar más
                         </button>
-                        <div className='absolute bottom-[-4px] left-[-4px]'>
+                        <div className='absolute bottom-[-4px] left-[-4px] -z-10'>
                          <Btn1/>
                         </div>
                     </div>

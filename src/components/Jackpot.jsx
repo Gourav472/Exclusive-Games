@@ -74,9 +74,9 @@ function Jackpot() {
           <div className='relative group overflow-hidden'>
             <img className='w-full cursor-pointer' src={jackpotimg1} alt="img" />
             <div className='w-full h-full bg-black/80  flex rounded-[8px] justify-center items-center absolute left-[-100%] top-[0%] group-hover:left-0 duration-500 ease-linear'>
-              <div className='relative'>
+              <div className='relative z-40'>
                 <button className=' text-[16px] font-[700] max-md:px-[30px] font-Inter pl-[46px] pt-[13px] pr-[46px] pb-[13px] text-white rounded-[41px] border  bg-transparent hover:bg-gradient-to-l  hover:from-[#7AF57A] hover:to-[#51C8EF] duration-300 ease-linear hover:text-black  '>Reproducir ahora</button>
-                <div className='absolute bottom-[-4px] left-[-4px]'>
+                <div className='absolute bottom-[-4px] left-[-4px] -z-10'>
                  <Btn2/>
                 </div>
               </div>
@@ -85,9 +85,9 @@ function Jackpot() {
           <div className='relative group overflow-hidden'>
             <img className='w-full cursor-pointer' src={jackpotimg2} alt="img" />
             <div className='w-full h-full  bg-black/80 rounded-[8px] flex justify-center items-center absolute left-[-100%] top-[0%] group-hover:left-0 duration-500 ease-linear'>
-              <div className='relative'>
+              <div className='relative z-40'>
                 <button className=' text-[16px] max-md:px-[30px] font-[700] font-Inter pl-[46px] pt-[13px] pr-[46px] pb-[13px] text-white rounded-[41px] border  bg-transparent hover:bg-gradient-to-l  hover:from-[#7AF57A] hover:to-[#51C8EF] duration-300 ease-linear hover:text-black  '>Reproducir ahora</button>
-                <div className='absolute bottom-[-4px] left-[-4px]'>
+                <div className='absolute bottom-[-4px] left-[-4px] -z-10'>
                  <Btn2/>
                 </div>
               </div>
@@ -96,9 +96,9 @@ function Jackpot() {
           <div className='relative group overflow-hidden z-10'>
             <img className='w-full cursor-pointer' src={jackpotimg3} alt="img" />
             <div className='w-full h-full  bg-black/80 rouneded-[8px] flex justify-center items-center absolute left-[-100%] top-[0%] group-hover:left-0 duration-500 ease-linear'>
-              <div className='relative'>
+              <div className='relative z-40'>
                 <button className=' max-md:px-[30px] text-[16px] font-[700] font-Inter pl-[46px] pt-[13px] pr-[46px] pb-[13px] text-white rounded-[41px] border  bg-transparent hover:bg-gradient-to-l  hover:from-[#7AF57A] hover:to-[#51C8EF] duration-300 ease-linear hover:text-black  '>Reproducir ahora</button>
-                <div className='absolute bottom-[-4px] left-[-4px]'>
+                <div className='absolute bottom-[-4px] left-[-4px] -z-10'>
                   <Btn2/>
                 </div>
               </div>

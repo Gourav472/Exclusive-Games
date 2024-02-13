@@ -18,14 +18,14 @@ function Nuestras() {
         <div className='flex flex-row flex-wrap mx-[-12px] pt-[100px] max-md:pt-10 max-md:pb-10 pb-[150px]'>
           <div className=' z-50 w-full lg:w-[50%] px-[12px] flex justify-center lg:justify-start'>
             <div>
-              <img className='w-full' src={rectangle77} alt="img" />
+              <img className='w-full cursor-pointer' src={rectangle77} alt="img" />
             </div>
           </div>
           <div className=' z-50 w-full lg:w-[50%] px-[12px] flex justify-center lg:justify-end'>
             <div className='flex flex-col gap-[40px]'>
               <h2 className=' max-lg:pt-[30px] max-md:text-[32px] lg:text-[43px] max-xl:leading-[45px] max-lg:text-center font-[400] font-Anton xl:text-[48px] leading-[57px] text-white'>Más razones para elegirnos</h2>
               <div className='flex flex-col md:items-center lg:items-start gap-6'>
-                <div className='max-w-[374px] md:w-[374px] max-sm:pl-[25px] pl-[56px] rounded-[16px] py-[24px] flex bg-[#041D22] gap-[37px] border-[0.5px]'>
+                <div className='max-w-[374px] md:w-[374px] max-sm:pl-[25px] pl-[56px] rounded-[16px] py-[24px] flex bg-[#041D22] gap-[37px] border-[#367F69] border-[0.5px]'>
                   <div className='w-[68px] h-[68px] rounded-[73px] bg-[#0F2F28] flex justify-center items-center hover:bg-[#00141B]'>
                     <Svg4 />
                   </div>
@@ -34,7 +34,7 @@ function Nuestras() {
                     <p className='font-[500] font-Inter text-[16px] leading-[25px] text-[white] text md:max-w-[127px] '>Páginas creadas</p>
                   </div>
                 </div>
-                <div className='max-w-[374px] max-sm:pl-[25px] md:w-[374px] pl-[56px] rounded-[16px] py-[24px] flex bg-[#041D22] gap-[37px] border-[0.5px]'>
+                <div className='max-w-[374px] max-sm:pl-[25px] md:w-[374px] pl-[56px] rounded-[16px] py-[24px] flex bg-[#041D22] gap-[37px] border-[#367F69] border-[0.5px]'>
                   <div className='w-[68px] h-[68px] rounded-[73px] bg-[#0F2F28] flex justify-center items-center hover:bg-[#00141B]'>
                     <Svg5 />
 
@@ -44,7 +44,7 @@ function Nuestras() {
                     <p className='font-[500] font-Inter text-[16px] leading-[25px] text-[white] max-w-[157px]'>Clientes Satisfechas</p>
                   </div>
                 </div>
-                <div className='max-w-[374px] max-sm:pl-[25px] md:w-[374px] pl-[56px] rounded-[16px] py-[24px] flex bg-[#041D22] gap-[37px] border-[0.5px]'>
+                <div className='max-w-[374px] max-sm:pl-[25px] md:w-[374px] pl-[56px] rounded-[16px] py-[24px] flex bg-[#041D22] gap-[37px] border-[#367F69] border-[0.5px]'>
                   <div className='w-[68px] h-[68px] rounded-[73px] bg-[#0F2F28] flex justify-center items-center hover:bg-[#00141B]'>
                     <Svg6 />
 
@@ -110,12 +110,12 @@ function Nuestras() {
                     <p className='max-w-[266px] text-[#CDD2D3] font-[500] font-Inter text-[16px] leading-[25px]'>Tiempo de creación 2 a 3 semanas</p>
                   </div>
                 </div>
-                <div className='relative pt-5 '>
+                <div className='relative pt-5 z-40'>
                   <button class=" bg-transparent border text-white hover:text-black hover:bg-gradient-to-l  overflow-hidden relative px-[46px] py-[13px] rounded-[41px] text-[16px] font-Inter font-[700] hover:from-[#7AF57A] hover:to-[#51C8EF] outline-none duration-500 ease-linear group">
                     <span class="bg-white shadow-white absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-[41px] opacity-50 group-hover:top-[150%] duration-700 ease-linear shadow-[0_0_10px_10px_#FFF]"></span>
                     Comprar ahora
                   </button>
-                  <div className='absolute bottom-[-5px] left-[-4px]'>
+                  <div className='absolute bottom-[-5px] left-[-4px] -z-10'>
                     <Btn2 />
                   </div>
                 </div>
@@ -159,27 +159,27 @@ function Nuestras() {
                 <p className='max-w-[387px] font-[500] font-Inter text-[16px] text-center text-[#CDD5D6] leading-[25px]'>Tiempo de creación 2 a 3 semanas</p>
               </div>
             </div>
-            <div className='relative pt-[49px]'>
+            <div className='relative pt-[49px] z-40'>
               <button class=" bg-gradient-to-l from-[#51C8EF] to-[#7AF57A] text-black  overflow-hidden relative px-[46px] py-[13px] rounded-[41px] text-[16px] font-Inter font-[700] hover:from-[#7AF57A] hover:to-[#51C8EF] outline-none duration-500 ease-linear group">
                 <span class="bg-black shadow-black absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-[41px] opacity-50 group-hover:top-[150%] duration-700 ease-linear shadow-[0_0_10px_10px_#FFF]"></span>
                 Aprende más
               </button>
-              <div className='absolute bottom-[-4px] left-[-4px]'>
+              <div className='absolute bottom-[-4px] left-[-4px] -z-10'>
                 <Btn1 />
               </div>
             </div>
           </div>
           <div className='absolute left-[20%] top-[16%] max-lg:hidden'>
-            <img src={card1} alt="img" />
+            <img className=' cursor-pointer' src={card1} alt="img" />
           </div>
           <div className='absolute left-[11%] bottom-[13%] max-lg:hidden'>
-            <img src={card2} alt="img" />
+            <img className=' cursor-pointer' src={card2} alt="img" />
           </div>
           <div className='absolute right-[10%] top-[15%] max-lg:hidden'>
-            <img src={card3} alt="img" />
+            <img className=' cursor-pointer' src={card3} alt="img" />
           </div>
           <div className='absolute right-[15%] bottom-[17%] max-lg:hidden'>
-            <img src={card4} alt="img" />
+            <img className=' cursor-pointer' src={card4} alt="img" />
           </div>
           
         </div>
@@ -194,12 +194,12 @@ function Nuestras() {
                   <Tick />
                   <p className='max-w-[112px]  font-[500] font-Inter text-[16px] leading-[25px] text-[#CED4D4]'>Personalizable</p>
                 </div>
-                <div className='relative pt-5 '>
+                <div className='relative pt-5 z-40'>
                   <button class=" bg-transparent border text-white hover:text-black hover:bg-gradient-to-l  overflow-hidden relative px-[46px] py-[13px] rounded-[41px] text-[16px] font-Inter font-[700] hover:from-[#7AF57A] hover:to-[#51C8EF] outline-none duration-500 ease-linear group">
                     <span class="bg-white shadow-white absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-[41px] opacity-50 group-hover:top-[150%] duration-700 ease-linear shadow-[0_0_10px_10px_#FFF]"></span>
                     Comprar ahora
                   </button>
-                  <div className='absolute bottom-[-5px] left-[-4px]'>
+                  <div className='absolute bottom-[-5px] left-[-4px] -z-10'>
                     <Btn2 />
                   </div>
                 </div>
@@ -224,9 +224,9 @@ function Nuestras() {
           <div className='relative group overflow-hidden'>
             <img className='w-full cursor-pointer' src={card6} alt="img" />
             <div className='w-full h-full bg-black/80  flex rounded-[8px] justify-center items-center absolute left-[-100%] top-[0%] group-hover:left-0 duration-500 ease-linear'>
-              <div className='relative'>
+              <div className='relative z-40'>
                 <button className=' text-[16px] max-md:px-[30px] font-[700] font-Inter pl-[46px] pt-[13px] pr-[46px] pb-[13px] text-white rounded-[41px] border  bg-transparent hover:bg-gradient-to-l  hover:from-[#7AF57A] hover:to-[#51C8EF] duration-300 ease-linear hover:text-black  '>Rcasinovip</button>
-                <div className='absolute bottom-[-4px] left-[-4px]'>
+                <div className='absolute bottom-[-4px] left-[-4px] -z-10'>
                   <Btn2 />
                 </div>
               </div>
@@ -235,9 +235,9 @@ function Nuestras() {
           <div className='relative group overflow-hidden'>
             <img className='w-full cursor-pointer' src={card7} alt="img" />
             <div className='w-full h-full  bg-black/80 rounded-[8px] flex justify-center items-center absolute left-[-100%] top-[0%] group-hover:left-0 duration-500 ease-linear'>
-              <div className='relative'>
+              <div className='relative z-40'>
                 <button className=' max-md:px-[30px] text-[16px] font-[700] font-Inter pl-[46px] pt-[13px] pr-[46px] pb-[13px] text-white rounded-[41px] border  bg-transparent hover:bg-gradient-to-l  hover:from-[#7AF57A] hover:to-[#51C8EF] duration-300 ease-linear hover:text-black  '>Rcasinovip</button>
-                <div className='absolute bottom-[-4px] left-[-4px]'>
+                <div className='absolute bottom-[-4px] left-[-4px] -z-10'>
                   <Btn2 />
                 </div>
               </div>
@@ -246,9 +246,9 @@ function Nuestras() {
           <div className='relative group overflow-hidden z-10'>
             <img className='w-full cursor-pointer' src={card8} alt="img" />
             <div className='w-full h-full  bg-black/80 rouneded-[8px] flex justify-center items-center absolute left-[-100%] top-[0%] group-hover:left-0 duration-500 ease-linear'>
-              <div className='relative'>
+              <div className='relative z-40'>
                 <button className=' max-md:px-[30px] text-[16px] font-[700] font-Inter pl-[46px] pt-[13px] pr-[46px] pb-[13px] text-white rounded-[41px] border  bg-transparent hover:bg-gradient-to-l  hover:from-[#7AF57A] hover:to-[#51C8EF] duration-300 ease-linear hover:text-black  '>Rcasinovip</button>
-                <div className='absolute bottom-[-4px] left-[-4px]'>
+                <div className='absolute bottom-[-4px] left-[-4px] -z-10'>
                   <Btn2 />
                 </div>
               </div>

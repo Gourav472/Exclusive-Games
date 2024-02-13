@@ -7,7 +7,7 @@ function Poker() {
         <section className='bg-[#00141B] relative  mt-[-2px]'>
             <div className='container mx-auto max-w-[1140px] px-[12px] '>
                 <div className='flex flex-row flex-wrap mx-[-12px] pb-[100px] max-md:pt-10 max-md:pb-10 pt-[74px]'>
-                    <div className='w-full  md:w-[50%] z-10 px-[12px]'>
+                    <div className='w-full  md:w-[50%] z-10 px-[12px] flex md:justify-start'>
                         <div>
                             <img className='w-full' src={poker} alt="poker" />
                             <h2 className=' pt-[60px] max-sm:pt-[30px]  font-[400] text-[48px] leading-[57px] font-Anton text-white max-sm:text-[42px] max-md:text-center'>Nuestra Visión</h2>

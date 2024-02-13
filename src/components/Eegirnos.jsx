@@ -11,12 +11,12 @@ function Eegirnos() {
             <div className='flex flex-col'>
               <h2 className=' font-[400] font-Anton text-[48px] ledaing-[57px] text-[#00141B] max-md:text-[32px] max-md:text-center max-md:leading-[40px]'>Por qué elegirnos</h2>
               <p className='pt-[16px] max-md:text-[18px] max-md:text-center md:max-w-[526px] font-[500] font-Inter text-[16px] leading-[ 25px]'>Con Exclusive Games tenés Exclusivos beneficios. Te reintegramos todo lo invertido en fichas en la moneda que elijas. En Exclusive Games siempre sumamos nuevos juegos. Juegos crash, los juegos interactivos que más pide la gente. Con Exclusive Games empezás a ganar ya! Creamos tu plataforma en solo 2 semanas.</p>
-              <div className='relative pt-[24px] flex max-md:justify-center'>
+              <div className='relative pt-[24px] flex max-md:justify-center z-40'>
               <button class=" bg-gradient-to-l from-[#51C8EF] to-[#7AF57A] text-black  overflow-hidden relative px-[46px] py-[13px] rounded-[41px] text-[16px] font-Inter font-[700] hover:from-[#7AF57A] hover:to-[#51C8EF] outline-none duration-500 ease-linear group">
               <span class="bg-black shadow-black absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-[41px] opacity-50 group-hover:top-[150%] duration-700 ease-linear shadow-[0_0_10px_10px_#FFF]"></span>
               Aprende más
             </button>
-                <div className='absolute bottom-[-4px] max-md:hidden left-[-4px]'>
+                <div className='absolute bottom-[-4px] max-md:hidden left-[-4px] -z-10'>
                   <Btn1/>
                 </div>
               </div>
